@@ -1,0 +1,9 @@
+.container-1 {
+  border: 2px solid #eee;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card-body {
+  border-bottom: 1px solid #ddd;
+}

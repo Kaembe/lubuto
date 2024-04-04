@@ -1,0 +1,501 @@
+.search {
+  width: 100%;
+}
+
+.search-main {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.search-right {
+  display: none;
+}
+
+.search-middle {
+  width: 100%;
+}
+
+.search-middle-main {
+  width: 100%;
+}
+
+.searchform {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.searchform form  {
+  width: 100%;
+}
+
+.searchform form input {
+  width: 85%;
+  float:left;
+  border: 1px solid #888;
+  background: #fff;
+  border-right: none;
+}
+
+.searchform form button {
+  width: 15%;
+  float:left;
+  height: 46px;
+  border: 1px solid #FC7312;
+  border-left: none;
+  background-color: #FC7312;
+  color: #fff;
+}
+
+.nav-middle {
+  display: none;
+}
+
+.search-products {
+  width: 100%;
+  float: left;
+}
+
+.search-products-main {
+  width: 100%;
+  margin-top:20px;
+  border-top: 1px solid #eee;
+}
+
+.categoryprod {
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 10px;
+}
+
+.categoryprod-main {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.categoryprod-main a {
+  text-decoration: none;
+  background-color: #eee;
+  padding: 10px 10px;
+  font-size: 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  color: #444;
+  font-size: 10px;
+}
+
+.categoryprod-main h4 {
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.mainproducts {
+  border-top: 1px solid #eee;
+  float: left;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.products {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #eee;
+}
+
+.product-left {
+  margin: 3% 0;
+  width: 34%;
+  float: left;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  margin-left: 1%;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  background-position: contain;
+}
+
+.product-right {
+  margin: 3% 0;
+  width: 63%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 1%;
+}
+
+.main-product-right {
+  width: 100%;
+}
+
+.product-details {
+  width: 100%;
+}
+
+.details {
+  width: 100%;
+}
+
+.details h2 {
+  color: #444;
+  font-size:17px;
+  font-weight: 500;
+}
+
+.details p {
+  font-size:10px;
+  color: #555;
+  font-weight: 600;
+}
+
+.details h4 {
+  font-size:12px;
+  color: #555;
+  font-weight: 100;
+  padding-TOP: 5px;
+}
+
+.other {
+  width:100%;
+  margin-top: 10px;
+}
+
+.price {
+  width: 100%;
+}
+
+.price h3 {
+  font-size: 18px;
+  color: #444;
+}
+
+.date {
+  width: 100%;
+}
+
+.date-main {
+  width: 100%;
+}
+
+.date-main h6 {
+  color: #666;
+  font-weight: 500;
+  font-size:10px;
+}
+
+.buy {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.buy p {
+  font-size: 11px;
+  font-weight:600;
+  color: #444;
+}
+
+.search-left {
+  display: none;
+}
+
+@media only screen  and (min-width: 1000px) {
+  .search {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .search-main {
+    width: 100%;
+    padding-top: 120px;
+  }
+
+  .search-right {
+    display: block;
+    width: 20%;
+    float: left;
+  }
+
+  .searchright-main {
+    width: 100%;
+  }
+
+  .searchright-main h3 {
+    font-size: 14px;
+    padding-bottom: 15px;
+    color: #333;
+  }
+
+  .searchright-main h4 {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .searchright-main ul {
+    padding: 0 20px;
+  }
+
+  .searchright-main ul li {
+    list-style-type: none;
+  }
+
+  .searchright-main ul li a {
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .search-middle {
+    width: 65%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  .search-middle-main {
+    width: 100%;
+  }
+
+  .searchform {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .searchform form  {
+    width: 100%;
+  }
+
+  .searchform form input {
+    width: 85%;
+    float:left;
+    border: 2px solid #333;
+    background: #fff;
+    border-right: none;
+  }
+
+  .searchform form button {
+    width: 15%;
+    float:left;
+    height: 48px;
+    border: 2px solid #FC7312;
+    border-left: none;
+    background-color: #FC7312;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .searchform form button:hover {
+    opacity: 0.7;
+  }
+
+  .nav-middle {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-middle-main {
+    padding-top: 70px;
+    margin: 0% 2%;
+  }
+
+  .nav-middle-main p {
+    font-size: 12px;
+
+  }
+
+  .nav-middle-main p a {
+    text-decoration: none;
+    color: #3665f3;
+    padding-left: 8px;
+    font-weight: 500;
+  }
+
+  .nav-middle-main p a:hover {
+    text-decoration: underline
+  }
+
+
+  .search-products {
+    width: 100%;
+    float: left;
+  }
+
+  .search-products-main {
+    width: 100%;
+    margin-top:10px;
+    border-top: none;
+  }
+
+  .categoryprod {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .categoryprod-main {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .categoryprod-main a {
+    text-decoration: none;
+    background-color: #eee;
+    padding: 10px 20px;
+    font-size: 10px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    color: #444;
+    font-size: 10px;
+    float: left;
+  }
+
+  .categoryprod-main a:hover {
+    opacity: 0.7;
+  }
+
+  .categoryprod-main h4 {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .p {
+    margin-top: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius:5px;
+    width: 100%;
+    float: left;
+  }
+
+  .mainproducts {
+    border: none;
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+    border-top: 1px solid #ddd;
+  }
+
+  .products {
+    width: 100%;
+    float: left;
+  }
+
+  .product-left {
+    margin: 3% 0;
+    width: 28%;
+    float: left;
+  }
+
+  .product-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 6%;
+    border-radius:5px;
+  }
+
+  .product-image img {
+    width: 100%;
+    height: 100%;
+    background-position: contain;
+  }
+
+  .product-right {
+    margin: 3% 0;
+    width: 63%;
+    float: left;
+    margin-left: 4%;
+    margin-right: 2%;
+  }
+
+  .main-product-right {
+    width: 100%;
+  }
+
+  .product-details {
+    width: 100%;
+  }
+
+  .details {
+    width: 100%;
+  }
+
+  .details h2 {
+    color: #444;
+    font-size:26px;
+    font-weight: 100;
+  }
+
+  .details p {
+    font-size:14px;
+    color: #555;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+
+  .details h4 {
+    font-size:14px;
+    color: #555;
+    font-weight: 100;
+    padding-bottom: 0px;
+  }
+
+  .other {
+    width:100%;
+    margin-top: 15px;
+  }
+
+  .price {
+    width: 40%;
+    float: left;
+  }
+
+  .price h3 {
+    font-size: 23px;
+    color: #444;
+  }
+
+  .date {
+    width: 60%;
+    float: left;
+  }
+
+  .date-main {
+    width: 100%;
+    padding-top:8px;
+  }
+
+  .date-main h6 {
+    color: #666;
+    font-weight: 500;
+    font-size:15px;
+  }
+
+  .buy {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+  }
+
+  .buy p {
+    font-size: 11px;
+    font-weight:600;
+    color: #444;
+  }
+
+  .search-left {
+    float: left;
+    width: 12%;
+    display: inline-block;
+  }
+
+  .search-left-main {
+    width: 100%;
+    height: 500px;
+  }
+
+  .search-left-main img {
+    width: 100%;
+    height: 100%;
+  }
+}

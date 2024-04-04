@@ -1,0 +1,426 @@
+body {
+  background-color: #fff;
+}
+
+.alert {
+  background-color: red;
+}
+
+.checkbox {
+  width: 20%;
+  float: left;
+}
+
+.checkbox input {
+  width: ;
+  float: left;
+  border: 1px solid blue;
+}
+
+.checkbox-p {
+  width: 80%;
+  float: left;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.checkbox-p p {
+  color: red;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  width: 90%;
+  list-style:circle;
+  padding: 5%;
+  margin-bottom: 10px;
+  color: #721c24;
+;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: calibri;
+}
+
+.signup {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.signup-main {
+  margin-top: 30px;
+}
+
+.individual {
+  width: 100%;
+}
+
+.individual-form {
+  width: 100%;
+  border: 1px solid #eee;
+  margin-bottom: 70px;
+}
+
+.individual-form h1 {
+  background-color: #EEEEEE;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #2E2929;
+  padding: 12px;
+  font-weight: 100;
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.individual-form form {
+  width: 90%;
+  padding: 0 5%;
+}
+
+.individual-form form label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: arial;
+}
+
+
+.individual-form form label span {
+  color: red;
+}
+
+.individual-form form input {
+  width: 90%;
+  font-size: 18px;
+  height: 40px;
+  border: 1px solid #959595;
+  margin-top: 10px;
+  padding: 0 5%;
+  margin-bottom: 20px;
+}
+
+.individual-form form button {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #DDDDDD;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: #FC7312;
+  color: #fff;
+}
+
+.individual-form form button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.individual-form p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 100%;
+
+}
+
+.individual-form p a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.login-main p {
+  font-size: 16px;
+  color: #444;
+}
+
+.btn {
+  background-color: #09A52E;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.signup-business {
+  display: none;
+}
+
+.business-tools {
+  margin-top: 10px;
+  display: none;
+}
+
+.business-tools-main {
+  width: 100%;
+}
+
+.business-tools-main ul {
+  float: left;
+}
+
+.business-tools-main ul li {
+  float: left;
+  list-style: none;
+  padding: 10px 5px;
+}
+
+.business-tools-main a {
+  background-color: #eee;
+  float: left;
+  display: block;
+  padding: 10px 10px;
+  font-size: 8px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #444;
+}
+
+.business-tools-main a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+
+  .signup {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .signup-main {
+    margin-top: 30px;
+  }
+
+  .individual {
+    width: 48%;
+    float: left;
+  }
+
+  .individual-form {
+    width: 100%;
+    border: 1px solid #eee;
+  }
+
+  .individual-form h1 {
+    background-color: #EEEEEE;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #2E2929;
+    padding: 12px;
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+
+  .individual-form form {
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  .individual-form form label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: arial;
+  }
+
+
+  .individual-form form label span {
+    color: red;
+  }
+
+  .individual-form form input {
+    width: 90%;
+    font-size: 18px;
+    height: 40px;
+    border: 1px solid #959595;
+    margin-top: 10px;
+    padding: 0 5%;
+    margin-bottom: 20px;
+  }
+
+  .individual-form form button {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: #FC7312;
+    color: #fff;
+  }
+
+  .individual-form form button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .individual-form p {
+    display: none;
+  }
+
+  .individual-form p a {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .btn {
+    background-color: #09A52E;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .signup-business {
+    display: block;
+    width: 48%;
+    float: right;
+  }
+
+  .individual {
+    width: 48%;
+    float: left;
+  }
+
+  .business-form {
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  .business-form h1 {
+    background-color: #EEEEEE;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #2E2929;
+    padding: 12px;
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  .business-form p {
+    padding: 10px;
+    font-size: 14px;
+    font-family: calibri;
+  }
+
+  .business-form form {
+    margin-top: 10px;
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  .business-form form label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: arial;
+  }
+
+  .business-form form label span {
+    color: red;
+  }
+
+  .business-form form input {
+    width: 90%;
+    font-size: 18px;
+    height: 40px;
+    border: 1px solid #959595;
+    margin-top: 10px;
+    padding: 0 5%;
+    margin-bottom: 20px;
+  }
+
+  .business-form form button {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: #FC7312;
+    color: #fff;
+  }
+
+  .business-form form button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .business-form form p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    font-family: arial;
+    color: #111;
+  }
+
+  .business-form form p a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .individual-form p a {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .btn {
+    background-color: #09A52E;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .business-tools {
+    display: block;
+    margin-top: 10px;
+    padding-top: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 60%;
+  }
+
+  .business-tools-main {
+    width: 100%;
+  }
+
+  .business-tools-main ul {
+    float: left;
+  }
+
+  .business-tools-main ul li {
+    float: left;
+    list-style: none;
+    padding: 10px 5px;
+  }
+
+  .business-tools-main a {
+    background-color: #eee;
+    float: left;
+    display: block;
+    padding: 10px 10px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #444;
+  }
+
+  .business-tools-main a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+}
