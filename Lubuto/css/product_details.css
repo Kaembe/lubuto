@@ -101,7 +101,7 @@ body {
 
 .product-details-content {
   width: 100%;
-  border: 1px solid #ddd;
+  
 }
 
 .product-details-content h1 {
@@ -109,7 +109,7 @@ body {
   width: 100%;
   color: #fff;
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .all-details {
@@ -415,6 +415,30 @@ body {
 
 .desc {
   display: none;
+}
+
+.buttons {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.button-blue {
+  background-color: #007bff;
+}
+.button-yellow {
+  background-color: #ffc107;
 }
 
 

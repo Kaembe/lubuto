@@ -1,0 +1,30 @@
+.buy {
+    width: 100%;
+}
+
+.buy-main {
+    padding-top: 120px;
+}
+.container h1 {
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.payment-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+.payment-option i {
+    margin-right: 10px;
+}
+.payment-option:hover {
+    background-color: #ddd;
+}
