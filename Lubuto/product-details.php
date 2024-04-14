@@ -141,7 +141,7 @@
                         <div class="products-image-main">
 
                                 <div class="main-image">
-                                  <img src="reservation/products/1400x1050iphone-15-pro-yuksek-kaliteli-render-goruntuleri-paylasildi.png" alt="" style="width:100%;cursor:pointer"
+                                  <img src="reservation/products/1400x1050iphone-15-pro-yuksek-kaliteli-render-goruntuleri-paylasildi.png" alt="" style="width:;cursor:pointer"
                                   onclick="onClick(this)" class="w3-hover-opacity">
                                 </div>
                               
@@ -170,12 +170,10 @@
                             
                                       <center><h2>iPhone 15 Promax</h2></center>
                                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eius distinctio rerum perspiciatis vel, explicabo maxime, ex optio adipisci tempore, inventore atque minima debitis saepe beatae quo asperiores hic consectetur.</p>
-                                      <div class="all-details">
-                                        <div class="price-details">
-
-                                        </div>
-                                       
-                                      </div>
+                                      <div class="buttons">
+                                        <a class="button button-blue" href="buy.php">Buy Now</a>
+                                        <a class="button button-yellow" href="#">Add to Cart</a>
+                                    </div>
                                       
                                     
                           </div>
@@ -190,15 +188,7 @@
             </div>
           </div>
         </div>
-        <!-- colors to add leter in the description
-
-        <li><b>Colors:</b><p>
-          <div class="colors">
-            <h6 class="red">Red</h6><h6 class="blue">Blue</h6>  <h6 class="white">White</h6><h6 class="black">Black </h6><h6 class="yellow">Yellow </h6><h6 class="green">Green </h6>
-          </div>
-        </p></li>
-
-      -->
+       
       </section>
       <!--Start of Tawk.to Script-->
         <script type="text/javascript">
